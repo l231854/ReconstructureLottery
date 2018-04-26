@@ -1,0 +1,155 @@
+//
+//  CookBook_Header.pch
+//  ReconstructureLottery
+//
+//  Created by Company on 2018/4/25.
+//  Copyright © 2018年 Company. All rights reserved.
+//
+
+#ifndef CookBook_Header_pch
+#define CookBook_Header_pch
+
+#ifdef DEBUG
+# define DLog(fmt, ...) NSLog((@"%s, " "line:%d " fmt), __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DLog(...);
+#endif
+
+
+#define WEAKSELF __weak typeof(self) weakSelf = self
+
+
+#ifdef __OBJC__
+
+#pragma mark- ---常用的全局宏定义
+
+//设置颜色值
+#define kCOLOR_R_G_B_A(r,g,b,a) [UIColor colorWithRed:r/255.0f  green:g/255.0f  blue:b/255.0f alpha:a]
+
+//根据屏幕宽度，判断当前硬件设备型号
+#define kScreenIsAboveIphone4     ([UIScreen mainScreen].bounds.size.height>480?YES:NO)
+#define kScreenIsAboveIphone5S    ([UIScreen mainScreen].bounds.size.height>568?YES:NO)
+
+//屏幕
+#define kScreenSize      [UIScreen mainScreen].bounds.size
+#define kScreenWidth     [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight    [UIScreen mainScreen].bounds.size.height
+
+
+/* ------------------------------------------------------- */
+
+
+#pragma mark-    ---自定义颜色值、字体样式、通用控件的相关属性
+/* 自定义颜色值 和 字体样式 */
+
+
+//控件间的常用分割间隙尺寸
+#define kGlobalGapSize08  (8/2.0f)
+#define kGlobalGapSize16  (16/2.0f)
+#define kGlobalGapSize24  (24/2.0f)
+#define kGlobalGapSize32  (32/2.0f)
+#define kGlobalGapSize40  (40/2.0f)
+
+
+//常用的颜色值
+#define KGlobalColorOrange      kCOLOR_R_G_B_A(255,108,0,1)
+#define KGlobalColorGreen       kCOLOR_R_G_B_A(136,203,90,1)
+#define KGlobalColorGrayDark    kCOLOR_R_G_B_A(151,163,182,1)
+#define KGlobalColorGrayLight   kCOLOR_R_G_B_A(208,213,222,1)
+
+#define kGlobalColorBGLightGray kCOLOR_R_G_B_A(240, 243, 248, 1)
+
+#define kGlobalViewControllerViewBGColor kCOLOR_R_G_B_A(249, 249, 249, 1)
+
+#define kMainColor      [UIColor colorWithRed:233/255.0f green:43/255.0f blue:49/255.0f alpha:1]
+
+
+//发送验证码的按钮状态颜色值
+#define kGlobalSendCodeButtonNormalColor    kCOLOR_R_G_B_A(124, 183, 33, 1)
+#define kGlobalSendCodeButtonDisableColor   kCOLOR_R_G_B_A(168, 176, 191, 1)
+
+
+//通用分割线的颜色和宽度
+#define kGlobalLineColor     KGlobalColorGrayLight
+#define kGlobalLineWidth   ([UIScreen mainScreen].scale == 2?(1/[UIScreen mainScreen].scale):(1 / ([UIScreen mainScreen].scale/ 2)))
+#define kGlobalLineWidthMultiple(multiple)  ([UIScreen mainScreen].scale == 2?(multiple/[UIScreen mainScreen].scale):(multiple / ([UIScreen mainScreen].scale/ 2)))
+
+#pragma mark- ---系统类
+
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+
+#pragma mark- ---第三方类文件
+
+//#import "WSProgressHUD.h"
+//#import "UIImageView+WebCache.h"
+//#import "MJRefresh.h"
+
+#import "DWExtensionUtils.h"
+#import "DWParsers.h"
+#import "DYView+DYExtension.h"
+#import "NSDate+Calendar.h"
+#import "WSProgressHUD.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "JSONModelLib.h"
+#import "Masonry.h"
+#import "TOWebViewController.h"
+
+
+#pragma mark- ---本项目的相关文件
+#import "UIBarButtonItem+DWBarButtonItem.h"
+#import "NSString+WayExtension.h"
+
+#pragma mark- -ViewController
+
+#import "AppDelegate.h"
+#import "CookBook_WebViewController.h"
+#import "CookBook_BuyLotteryManager.h"
+
+
+#pragma mark- -Model
+
+#import "CookBook_LotteryModel.h"
+
+#pragma mark- -View
+
+#import "CPVoiceButton.h"
+#import "CookBook_LotteryShowResultView.h"
+
+#pragma mark- -Tool
+
+#import "CookBook_TimeManager.h"
+#import "CookBook_User.h"
+#import "CookBook_Request.h"
+#import "NSString+XDJEncrypt.h"
+#import "AJNotificationView.h"
+#import "CookBook_GlobalDataManager.h"
+#import "SVProgressHUD+WayExtension.h"
+#import "CookBook_ServerAPIManager.h"
+#import "UIAlertView+Blocks.h"
+#import "UIViewController+CPViewControllerExtension.h"
+
+#pragma mark - !!!!!!!!
+#import "DWExtensionUtils.h"
+
+#pragma mark- notification
+
+#define kNotificationNameForApplicationWillEnterForeground @"kNotificationNameForApplicationWillEnterForeground"
+
+#define kNotificationNameForPushToLoginViewController   @"kNotificationNameForPushToLoginViewController"
+#define kNotificationNameForLoginOutTime                @"kNotificationNameForLoginOutTime"
+#define kNotificationNameForLogOut                @"kNotificationNameForLogOut"
+#define kNotificationNameForLoginSucceed               @"kNotificationNameForLoginSucceed"
+#define kNotificationNameForBuyLotteryCountTime              @"kNotificationNameForBuyLotteryCountTime"
+#define kNotificationNameForBuyLotteryReloadList              @"kNotificationNameForBuyLotteryReloadList"
+#define kNotificationNameForMainTabBarSwitchToBuyLottery @"kNotificationNameForMainTabBarSwitchToBuyLottery"
+
+#define kNotificationNameForReloadHomepageData  @"kNotificationNameForReloadHomepageData"
+
+#endif
+
+
+#endif /* CookBook_Header_pch */

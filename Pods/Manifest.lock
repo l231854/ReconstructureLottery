@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - AJNotificationView (0.7)
+  - IQKeyboardManager (4.0.10)
+  - JCore (1.1.7)
+  - JPush (3.0.5):
+    - JCore (~> 1.1.1)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - Reachability (3.2)
+  - RTLabel (1.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Shimmer (1.0.2)
+  - SVProgressHUD (2.1.2)
+  - TOWebViewController (2.2.6):
+    - TOWebViewController/Core (= 2.2.6)
+  - TOWebViewController/Core (2.2.6)
+  - UIAlertView+Blocks (0.9)
+  - UMengAnalytics (4.2.4)
+  - WSProgressHUD (1.1.1):
+    - Shimmer
+  - YTKNetwork (2.0.1):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - AJNotificationView (= 0.7)
+  - IQKeyboardManager (= 4.0.10)
+  - JPush (= 3.0.5)
+  - Masonry (= 1.0.2)
+  - MJRefresh (= 3.1.12)
+  - Reachability (= 3.2)
+  - RTLabel (= 1.0.1)
+  - SDWebImage (= 3.8.2)
+  - SVProgressHUD (= 2.1.2)
+  - TOWebViewController (= 2.2.6)
+  - UIAlertView+Blocks (= 0.9)
+  - UMengAnalytics (= 4.2.4)
+  - WSProgressHUD (= 1.1.1)
+  - YTKNetwork (= 2.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  AJNotificationView: fe9f2e3b806ab71e3705047ed243a283b7155731
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  JCore: f7459c81c135281a874a6beafdd321666adcc834
+  JPush: dd0b776998aa705a6242b947bf72e5a640387cfe
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RTLabel: 6005d07fef57b101097c4271f804daae3110cbca
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  WSProgressHUD: 0ebb8dd846f7fb4715d42c87584456480cb7fbf0
+  YTKNetwork: f21ad2073b3353a11d257593a2859f2904bbec75
+
+PODFILE CHECKSUM: cedd61f76267d1f2f433cae0812bcaaace0f80ce
+
+COCOAPODS: 1.4.0
