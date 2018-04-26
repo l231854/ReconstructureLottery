@@ -8,7 +8,7 @@
 
 #import "CookBook_BaseViewController.h"
 
-@interface CPAboutUsVC : CookBook_BaseViewController
+@interface CookBook_AboutUsVC : CookBook_BaseViewController
 
 @property(nonatomic,copy)NSString *message;
 

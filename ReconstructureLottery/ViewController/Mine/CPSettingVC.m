@@ -8,7 +8,7 @@
 
 #import "CPSettingVC.h"
 #import "CPModifyLoginPasswordVC.h"
-#import "CPAboutUsVC.h"
+#import "CookBook_AboutUsVC.h"
 #import "CPSetQAMessageVC.h"
 #import "CPModifyQAMessageVC.h"
 #import "CPModifyPayPasswordVC.h"
@@ -393,7 +393,7 @@
 
 -(void)goToAboutUsViewController
 {
-    CPAboutUsVC *vc = [CPAboutUsVC new];
+    CookBook_AboutUsVC *vc = [CookBook_AboutUsVC new];
     vc.message = _aboutUsMessage;
     [self.navigationController pushViewController:vc animated:YES];
 }

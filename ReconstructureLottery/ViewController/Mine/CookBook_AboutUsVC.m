@@ -6,15 +6,15 @@
 //  Copyright © 2017年 施冬伟. All rights reserved.
 //
 
-#import "CPAboutUsVC.h"
+#import "CookBook_AboutUsVC.h"
 
-@interface CPAboutUsVC ()
+@interface CookBook_AboutUsVC ()
 {
     IBOutlet UITextView *_textView;
 }
 @end
 
-@implementation CPAboutUsVC
+@implementation CookBook_AboutUsVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

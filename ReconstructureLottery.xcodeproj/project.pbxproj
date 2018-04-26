@@ -79,8 +79,8 @@
 		6837924620909F110092AB54 /* CookBook_LotteryResultMainCellStyle8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683790F920909F100092AB54 /* CookBook_LotteryResultMainCellStyle8.xib */; };
 		6837924720909F110092AB54 /* CPLotteryTrendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 683790FC20909F100092AB54 /* CPLotteryTrendVC.m */; };
 		6837924820909F110092AB54 /* CPLotteryTrendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683790FD20909F100092AB54 /* CPLotteryTrendVC.xib */; };
-		6837924920909F110092AB54 /* CPAboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6837910020909F100092AB54 /* CPAboutUsVC.m */; };
-		6837924A20909F110092AB54 /* CPAboutUsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6837910120909F100092AB54 /* CPAboutUsVC.xib */; };
+		6837924920909F110092AB54 /* CookBook_AboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6837910020909F100092AB54 /* CookBook_AboutUsVC.m */; };
+		6837924A20909F110092AB54 /* CookBook_AboutUsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6837910120909F100092AB54 /* CookBook_AboutUsVC.xib */; };
 		6837924B20909F110092AB54 /* CPAccountRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6837910320909F100092AB54 /* CPAccountRecordVC.m */; };
 		6837924C20909F110092AB54 /* CPAccountRecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6837910420909F100092AB54 /* CPAccountRecordVC.xib */; };
 		6837924D20909F110092AB54 /* CPBankCardInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6837910620909F100092AB54 /* CPBankCardInfoVC.m */; };
@@ -344,9 +344,9 @@
 		683790FB20909F100092AB54 /* CPLotteryTrendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLotteryTrendVC.h; sourceTree = "<group>"; };
 		683790FC20909F100092AB54 /* CPLotteryTrendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLotteryTrendVC.m; sourceTree = "<group>"; };
 		683790FD20909F100092AB54 /* CPLotteryTrendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPLotteryTrendVC.xib; sourceTree = "<group>"; };
-		683790FF20909F100092AB54 /* CPAboutUsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAboutUsVC.h; sourceTree = "<group>"; };
-		6837910020909F100092AB54 /* CPAboutUsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAboutUsVC.m; sourceTree = "<group>"; };
-		6837910120909F100092AB54 /* CPAboutUsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPAboutUsVC.xib; sourceTree = "<group>"; };
+		683790FF20909F100092AB54 /* CookBook_AboutUsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookBook_AboutUsVC.h; sourceTree = "<group>"; };
+		6837910020909F100092AB54 /* CookBook_AboutUsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookBook_AboutUsVC.m; sourceTree = "<group>"; };
+		6837910120909F100092AB54 /* CookBook_AboutUsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CookBook_AboutUsVC.xib; sourceTree = "<group>"; };
 		6837910220909F100092AB54 /* CPAccountRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAccountRecordVC.h; sourceTree = "<group>"; };
 		6837910320909F100092AB54 /* CPAccountRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAccountRecordVC.m; sourceTree = "<group>"; };
 		6837910420909F100092AB54 /* CPAccountRecordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPAccountRecordVC.xib; sourceTree = "<group>"; };
@@ -885,9 +885,9 @@
 		683790FE20909F100092AB54 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				683790FF20909F100092AB54 /* CPAboutUsVC.h */,
-				6837910020909F100092AB54 /* CPAboutUsVC.m */,
-				6837910120909F100092AB54 /* CPAboutUsVC.xib */,
+				683790FF20909F100092AB54 /* CookBook_AboutUsVC.h */,
+				6837910020909F100092AB54 /* CookBook_AboutUsVC.m */,
+				6837910120909F100092AB54 /* CookBook_AboutUsVC.xib */,
 				6837910220909F100092AB54 /* CPAccountRecordVC.h */,
 				6837910320909F100092AB54 /* CPAccountRecordVC.m */,
 				6837910420909F100092AB54 /* CPAccountRecordVC.xib */,
@@ -1422,7 +1422,7 @@
 				6837925A20909F110092AB54 /* CPMyRecommendRecordVC.xib in Resources */,
 				6837929320909F110092AB54 /* chik.mp3 in Resources */,
 				6837927720909F110092AB54 /* CPRechargeBankNextStepVC.xib in Resources */,
-				6837924A20909F110092AB54 /* CPAboutUsVC.xib in Resources */,
+				6837924A20909F110092AB54 /* CookBook_AboutUsVC.xib in Resources */,
 				6837922F20909F110092AB54 /* CPResetPasswordVC.xib in Resources */,
 				6837927F20909F110092AB54 /* CPRechargeRightMenuView.xib in Resources */,
 				6837920B20909F110092AB54 /* CPBuyLotteryDetailVC.xib in Resources */,
@@ -1555,7 +1555,7 @@
 				6837928020909F110092AB54 /* CPRechargeSelfQRCodeVC.m in Sources */,
 				6837929620909F110092AB54 /* CookBook_GlobalDataManager.m in Sources */,
 				6837925520909F110092AB54 /* CPModifyPayPasswordVC.m in Sources */,
-				6837924920909F110092AB54 /* CPAboutUsVC.m in Sources */,
+				6837924920909F110092AB54 /* CookBook_AboutUsVC.m in Sources */,
 				683792B620909F110092AB54 /* SDCollectionViewCell.m in Sources */,
 				683792AA20909F110092AB54 /* NSData+CommonCrypto.m in Sources */,
 				683792A920909F110092AB54 /* JSONValueTransformer.m in Sources */,
