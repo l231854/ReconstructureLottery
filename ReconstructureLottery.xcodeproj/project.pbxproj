@@ -1364,7 +1364,7 @@
 				TargetAttributes = {
 					6837906720909E6D0092AB54 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1783,10 +1783,11 @@
 			baseConfigurationReference = E8B7B18965D21EE296110526 /* Pods-ReconstructureLottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = HQZ2XZMBYM;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7D7KAR593;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Company/Desktop/ReconstructureLottery/ReconstructureLottery/CookBook_Header.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReconstructureLottery/CookBook_Header.pch";
 				INFOPLIST_FILE = ReconstructureLottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1795,10 +1796,10 @@
 					"$(PROJECT_DIR)/ReconstructureLottery/Third/UMessage_Sdk_1.5.0a",
 					"$(PROJECT_DIR)/ReconstructureLottery/Third/WechatOpenSDK1.8.0_NoPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = company.ReconstructureLottery;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "301643d5-ca80-40eb-92bd-0f7c744e9296";
-				PROVISIONING_PROFILE_SPECIFIER = coReconstructureLotteryDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1808,10 +1809,11 @@
 			baseConfigurationReference = 2894DA38C651AA2F94C1F6EB /* Pods-ReconstructureLottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7D7KAR593;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Company/Desktop/ReconstructureLottery/ReconstructureLottery/CookBook_Header.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReconstructureLottery/CookBook_Header.pch";
 				INFOPLIST_FILE = ReconstructureLottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1820,7 +1822,7 @@
 					"$(PROJECT_DIR)/ReconstructureLottery/Third/UMessage_Sdk_1.5.0a",
 					"$(PROJECT_DIR)/ReconstructureLottery/Third/WechatOpenSDK1.8.0_NoPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = company.ReconstructureLottery;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
